@@ -27,9 +27,9 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
-      - name: Build
+      - name: Build project
         run: bun run build
 
       - name: Setup Pages
@@ -43,3 +43,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+fix deploy workflow
