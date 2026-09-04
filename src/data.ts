@@ -90,8 +90,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$95",
     descriptionEn: "Liby Master Fragrance Grasse Rose Hand Cream, blending French Grasse May Rose flower water with luxury botanical extracts to deeply nourish hand skin. Light texture, easily absorbed, leaving hands silky smooth with an elegant rose salon fragrance.",
     descriptionCn: "立白大师香氛格拉斯玫瑰护手霜，融合法国格拉斯五月玫瑰花水与奢华植物精粹，深层滋养手部肌肤。质地轻盈易吸收，令双手如丝般柔滑，伴随典雅玫瑰沙龙香氛。",
-    images: ["https://i.ibb.co/931N38YD/image-04.jpg"],
-    bannerImage: "https://i.ibb.co/931N38YD/image-04.jpg",
+    images: ["/images/image-04.jpg"],
+    bannerImage: "/images/image-04.jpg",
     palette: [
       { name: "Grasse Rose", hex: "#bf9478", textColor: "#ffffff" },
       { name: "Alabaster White", hex: "#fafaf9" },
@@ -215,8 +215,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$110",
     descriptionEn: "Liby Master Fragrance Grasse Rose Hand Soap, infused with precious Grasse rose water and essential oils, delivers a French salon-grade luxury hand washing experience.",
     descriptionCn: "立白大师香氛格拉斯玫瑰洗手液，蕴含格拉斯珍贵玫瑰花水与精油，带来法式优雅的沙龙香氛洗手体验。泡沫绵密，温和洁净，令双手散发持久迷人芬芳。",
-    images: ["https://i.ibb.co/T6GgD7b/image-09.jpg"],
-    bannerImage: "https://i.ibb.co/T6GgD7b/image-09.jpg",
+    images: ["/images/image-09.jpg"],
+    bannerImage: "/images/image-09.jpg",
     palette: [
       { name: "Grasse Rose", hex: "#bf9478", textColor: "#ffffff" },
       { name: "Alabaster White", hex: "#fafafa" },
@@ -291,10 +291,10 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Liby and Loopy IP crossover collaboration series, combining cheerful character visuals with high-performance cleaning essentials.",
     descriptionCn: "立白与人气IP Loopy跨界联名定制系列，将萌趣可爱的IP形象与专业高效的洗护产品深度融合。",
     images: [
-      "https://i.ibb.co/7xj5zDvc/libaixloopy-ip-01.jpg",
-      "https://i.ibb.co/jvg9ncvc/libaixloopy-ip-02.jpg"
+      "/images/libaixloopy-ip-01.jpg",
+      "/images/libaixloopy-ip-02.jpg"
     ],
-    bannerImage: "https://i.ibb.co/mVwjt6Cx/inage-10.jpg",
+    bannerImage: "/images//inage-10.jpg",
     palette: [
       { name: "Loopy Pink", hex: "#f472b6", textColor: "#ffffff" },
       { name: "Pure White", hex: "#ffffff" },
@@ -318,11 +318,11 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Zhijing pure botanical skincare series, focusing on natural plant extracts and sustainable minimal aesthetics.",
     descriptionCn: "植境纯净植物草本护肤系列，专注天然植物萃取与可持续极简美学，为肌肤带来纯粹滋养。",
     images: [
-      "https://i.ibb.co/k2FN5nFC/zhijing-02.jpg",
-      "https://i.ibb.co/q3B8Wbfs/zhijing-03.jpg",
-      "https://i.ibb.co/bR8T444K/zhijing-01.jpg"
+      "/images/zhijing-02.jpg",
+      "/images/zhijing-03.jpg",
+      "/images/zhijing-01.jpg"
     ],
-    bannerImage: "https://i.ibb.co/B24JfZkR/inage-13.jpg",
+    bannerImage: "/images/inage-13.jpg",
     palette: [
       { name: "Forest Sage", hex: "#4d7c0f", textColor: "#ffffff" },
       { name: "Botanical Cream", hex: "#f5f5f4" },
@@ -345,8 +345,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$105",
     descriptionEn: "QEOSY luxury botanical essence oil, crafted with rare botanical extracts to nourish and illuminate skin.",
     descriptionCn: "QEOSY 奢华植物精油，萃取珍稀植物精粹，深层滋养肌肤，重现肌肤自然光泽与透亮质感。",
-    images: ["https://i.ibb.co/G4wFnYKy/inage-15.jpg"],
-    bannerImage: "https://i.ibb.co/G4wFnYKy/inage-15.jpg",
+    images: ["/images/inage-15.jpg"],
+    bannerImage: "/images/inage-15.jpg",
     palette: [
       { name: "Satin Amber", hex: "#b45309" },
       { name: "Onyx Black", hex: "#111111", textColor: "#ffffff" },
@@ -371,10 +371,10 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Liby Master Fragrance Laundry Care with natural extracts and long-lasting scent.",
     descriptionCn: "立白大师香氛洗衣天然护理，萃取天然香氛精华，温和洁净，持久留香。",
     images: [
-      "https://i.ibb.co/2YqrRYh8/libaixloopy-ip-01.jpg",
-      "https://i.ibb.co/VkFxScT/libaixloopy-ip-02.jpg"
+      "/images/libaixloopy-ip-01.jpg",
+      "/images/libaixloopy-ip-02.jpg"
     ],
-    bannerImage: "https://i.ibb.co/2YqrRYh8/libaixloopy-ip-01.jpg",
+    bannerImage: "/images/libaixloopy-ip-01.jpg",
     palette: [
       { name: "Pure White", hex: "#ffffff" },
       { name: "Fresh Blue", hex: "#2563eb", textColor: "#ffffff" }
@@ -396,8 +396,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$88",
     descriptionEn: "Xiaobai Minimalist skincare series with pure formula and soft matte packaging.",
     descriptionCn: "小白美妆极简纯净护肤系列，以极简哑光质感与纯粹设计呈现，给予肌肤无负担的温柔呵护。",
-    images: ["https://i.ibb.co/TBWdKGJX/inage-10.jpg"],
-    bannerImage: "https://i.ibb.co/TBWdKGJX/inage-10.jpg",
+    images: ["/images/inage-10.jpg"],
+    bannerImage: "/images/inage-10.jpg",
     palette: [
       { name: "Soft Porcelain", hex: "#f5f5f4" },
       { name: "Pure White", hex: "#ffffff" },
@@ -421,12 +421,12 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Tempo Peach Facial Tissue featuring exquisite peach blossom scent, premium touch, and elegant packaging aesthetics.",
     descriptionCn: "Tempo得宝浅桃手帕纸，融入清新浅桃与柔和感官印记，采用四层厚实柔韧质感与法式极简包装，带来温柔雅致的随身护理体验。",
     images: [
-      "https://i.ibb.co/TxkSJR9m/Tempo-01.jpg",
-      "https://i.ibb.co/MkMNy00x/Tempo-02.jpg",
-      "https://i.ibb.co/Kj99XxZj/Tempo-03.jpg",
-      "https://i.ibb.co/S4c4hZJ2/Tempo-04.jpg"
+      "/images/tempo-01.jpg",
+      "/images/tempo-02.jpg",
+      "/images/tempo-03.jpg",
+      "/images/tempo-04.jpg"
     ],
-    bannerImage: "https://i.ibb.co/nMyvkqpp/image-01.jpg",
+    bannerImage: "/images/image-01.jpg",
     palette: [
       { name: "Soft Peach", hex: "#fbcfe8" },
       { name: "Silk White", hex: "#ffffff" },
@@ -450,12 +450,12 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Naturo Fruity Soap, crafted with natural fruit extracts and botanical oils, delivering a gentle, hydrating cleanse and refreshing fruity scent.",
     descriptionCn: "Naturo果香肥皂，选用天然水果萃取物与植萃精油，提供温柔温和的清洁抚触与清新悦人的自然果香。",
     images: [
-      "https://i.ibb.co/Xx0DSvCL/naturo-01.jpg",
-      "https://i.ibb.co/gLDbQXFq/naturo-02.jpg",
-      "https://i.ibb.co/8DMbchkC/naturo-03.jpg",
-      "https://i.ibb.co/VKqX04b/naturo-05.jpg"
+      "/images/naturo-01.jpg",
+      "/images/naturo-02.jpg",
+      "/images/naturo-03.jpg",
+      "/images/naturo-05.jpg"
     ],
-    bannerImage: "https://i.ibb.co/mCSV0J5k/image-02.jpg",
+    bannerImage: "/images/image-02.jpg",
     palette: [
       { name: "Peach Amber", hex: "#f97316" },
       { name: "Natural Sage", hex: "#84cc16" },
@@ -479,9 +479,9 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Liby Master Fragrance Grasse Rose Hand Cream, blending French Grasse May Rose flower water with luxury botanical extracts to deeply nourish hand skin. Light texture, easily absorbed, leaving hands silky smooth with an elegant rose salon fragrance.",
     descriptionCn: "立白大师香氛格拉斯玫瑰护手霜，融合法国格拉斯五月玫瑰花水与奢华植物精粹，深层滋养手部肌肤。质地轻盈易吸收，令双手如丝般柔滑，伴随典雅玫瑰沙龙香氛。",
     images: [
-      "https://i.ibb.co/LDFtCJPK/libai-01.jpg"
+      "/images/libai-01.jpg"
     ],
-    bannerImage: "https://i.ibb.co/LDFtCJPK/libai-01.jpg",
+    bannerImage: "/images/libai-01.jpg",
     palette: [
       { name: "Grasse Rose", hex: "#bf9478", textColor: "#ffffff" },
       { name: "Alabaster White", hex: "#fafaf9" },
@@ -506,12 +506,12 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Xiaobai Universe Fragrance Laundry Powder, infused with natural fragrance factors and effective cleansing elements to deliver cloud-like softness and long-lasting aroma to clothing.",
     descriptionCn: "小白宇宙香氛洗衣粉，萃取天然香氛因子与高效洁净成分，带来衣物如云朵般的蓬松软绵与持久留香。",
     images: [
-      "https://i.ibb.co/RT9vLNVT/xiao-bai-01.jpg",
-      "https://i.ibb.co/6Rg6Pdyc/xiao-bai-04.jpg",
-      "https://i.ibb.co/5dT26dG/xiao-bai-03.jpg",
-      "https://i.ibb.co/t9yykQ3/xiao-bai-02.jpg"
+      "/images/xiao-bai-01.jpg",
+      "/images/xiao-bai-04.jpg",
+      "/images/xiao-bai-03.jpg",
+      "/images/xiao-bai-02.jpg"
     ],
-    bannerImage: "https://i.ibb.co/Kj08T5RB/image-05.jpg",
+    bannerImage: "/images/image-05.jpg",
     palette: [
       { name: "Sky Blue", hex: "#7186bf", textColor: "#ffffff" },
       { name: "Pure White", hex: "#ffffff" },
@@ -535,10 +535,10 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "White Shoe Cleaner featuring eco-friendly cleaning foam formula, instant brightness, and elegant minimal bottle packaging.",
     descriptionCn: "小白鞋清洁剂，蕴含高活性去污因子与免水洗护精华，带来瞬时焕新亮白与柔润触感。",
     images: [
-      "https://i.ibb.co/1th561WV/xioa-baibai-04.jpg",
-      "https://i.ibb.co/XfCKwfjX/xioa-baibai-05.jpg"
+      "/images/xioa-baibai-04.jpg",
+      "/images/xioa-baibai-05.jpg"
     ],
-    bannerImage: "https://i.ibb.co/3yh20b2X/image-07.jpg",
+    bannerImage:"/images/image-07.jpg",
     palette: [
       { name: "Clean White", hex: "#ffffff" },
       { name: "Sage Green", hex: "#7f8e7b", textColor: "#ffffff" },
@@ -562,12 +562,12 @@ export const ALL_PROJECTS: Project[] = [
     descriptionEn: "Sylvia Fragrance Scent Card featuring exquisite essential oils, elegant minimalist card design, and long-lasting salon aroma diffusion.",
     descriptionCn: "Sylvia 香氛扩香卡，选用精选沙龙级香氛精油，采用极简纸艺卡片包装，散发持久优雅的空间芳香。",
     images: [
-      "https://i.ibb.co/4ZtfyBYf/xwya-01.jpg",
-      "https://i.ibb.co/N8QcNgR/xwya-02.jpg",
-      "https://i.ibb.co/1GKbHN7x/xwya-03.jpg",
-      "https://i.ibb.co/k2RRk426/xwya-04.jpg"
+      "/images/xwya-01.jpg",
+      "/images/xwya-02.jpg",
+      "/images/xwya-03.jpg",
+      "/images/xwya-04.jpg"
     ],
-    bannerImage: "https://i.ibb.co/VcbWDKKv/image-08.jpg",
+    bannerImage: "/images/image-08.jpg",
     palette: [
       { name: "Charcoal Black", hex: "#1c1917", textColor: "#ffffff" },
       { name: "Scent White", hex: "#ffffff" },
@@ -672,23 +672,23 @@ export function getProjectImage(project: Project, index: number = 0): string {
 
   // Otherwise, return fallback premium high-resolution links from Unsplash matching the mood
   const fallbacks: Record<string, string> = {
-    "selected-4": "https://i.ibb.co/931N38YD/image-04.jpg",  // Grasse Rose Hand Cream
-    "libai-handrose": "https://i.ibb.co/LDFtCJPK/libai-01.jpg",  // Liby Grasse Rose Hand Cream
-    "xiaobai-laundry": "https://i.ibb.co/Kj08T5RB/image-05.jpg",
-    "xiaobai-shoe-cleaner": "https://i.ibb.co/3yh20b2X/image-07.jpg",
-    "sylvia-scentcard": "https://i.ibb.co/VcbWDKKv/image-08.jpg",
-    "libai-loopy-laundry": "https://i.ibb.co/2YqrRYh8/libaixloopy-ip-01.jpg",
-    "tempo-peach": "https://i.ibb.co/nMyvkqpp/image-01.jpg",
+    "selected-4": "/images/image-04.jpg",  // Grasse Rose Hand Cream
+    "libai-handrose":"/images/libai-01.jpg",  // Liby Grasse Rose Hand Cream
+    "xiaobai-laundry": "/images/image-05.jpg",
+    "xiaobai-shoe-cleaner": "/images/image-07.jpg",
+    "sylvia-scentcard": "/images/image-08.jpg",
+    "libai-loopy-laundry": "/images/libaixloopy-ip-01.jpg",
+    "tempo-peach": "/images/image-01.jpg",
     "selected-5": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?q=80&w=1000&auto=format&fit=crop",  // Amber dropper
     "selected-6": "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=1000&auto=format&fit=crop",  // Glass skincare water
     "selected-7": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop",  // Pure organic jar
     "selected-8": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1000&auto=format&fit=crop",  // Cosmetic orange vibe
-    "selected-9": "https://i.ibb.co/T6GgD7b/image-09.jpg",  // Grasse Rose Hand Soap
+    "selected-9": "/images/image-09.jpg",  // Grasse Rose Hand Soap
     "selected-10": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=1000&auto=format&fit=crop", // Green/herbal bottle
     "selected-11": "https://images.unsplash.com/photo-1563170351-be82bc888bb4?q=80&w=1000&auto=format&fit=crop", // Amber classic jar
-    "selected-12": "https://i.ibb.co/mVwjt6Cx/inage-10.jpg", // Libai x Loopy
-    "selected-13": "https://i.ibb.co/B24JfZkR/inage-13.jpg",
-    "selected-14": "https://i.ibb.co/G4wFnYKy/inage-15.jpg",
+    "selected-12": "/images/inage-10.jpg", // Libai x Loopy
+    "selected-13": "/images/inage-13.jpg",
+    "selected-14": "/images/inage-15.jpg",
     "more-1": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop",     // Coding/design layout
     "more-2": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1000&auto=format&fit=crop",     // Studio mic / ambient noise
     "more-3": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=1000&auto=format&fit=crop"      // Stark architectural shape
