@@ -15,8 +15,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$89",
     descriptionEn: "A breakthrough cellular wellness brand featuring premium textured containers. Highlighting precise scientific proportions with an elegant slate capsule form, capturing clinical precision within clean editorial design.",
     descriptionCn: "一项具有突破性的细胞健康品牌，采用质感极佳的琥珀玻璃及金属盖包装。通过大面积优雅留白与精确的文字占比，在极简排版中展现临床医药级的科学严谨态度。",
-    images: ["assets/image1.jpg"],
-    bannerImage: "assets/image1.jpg",
+    images: [`${import.meta.env.BASE_URL}assets/image1.jpg`],
+    bannerImage: `${import.meta.env.BASE_URL}assets/image1.jpg`,
     palette: [
       { name: "Raw Amber", hex: "#b45309" },
       { name: "Clinical Black", hex: "#111111" },
@@ -40,8 +40,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$75",
     descriptionEn: "Highly organic vegan supplements contained in sage-green biodegradable canisters. The balanced modern layout features double-stacked matte cylinders with raw fiber feel, capturing nature-forward aesthetic.",
     descriptionCn: "蕴含纯天然有机植物力量的健康胶囊系列，采用鼠尾草绿生物可降解纸罐。通过双层层叠圆筒容器和原始纤维触感，完美契合了自然主义的高级品牌美学路线。",
-    images: ["assets/image2.jpg"],
-    bannerImage: "assets/image2.jpg",
+    images: [`${import.meta.env.BASE_URL}assets/image2.jpg`],
+    bannerImage: `${import.meta.env.BASE_URL}assets/image2.jpg`,
     palette: [
       { name: "Sage Green", hex: "#8f9779", textColor: "#ffffff" },
       { name: "Eco Canvas", hex: "#e2e4dc" },
@@ -65,8 +65,8 @@ export const ALL_PROJECTS: Project[] = [
     price: "$59",
     descriptionEn: "Brushed aluminum wellness canisters featuring debossed technical engravings. Utilizing solid metallic weight and hyper-detailed typography to cater to contemporary minimal fitness cultures.",
     descriptionCn: "金属拉丝工艺的硬核电解质补剂罐，瓶身带有极具工业感的水印和微米文字阴刻。利用扎实的金属分量及高密度细节字距，展现当代极简主义的先锋运动美学。",
-    images: ["assets/image3.jpg"],
-    bannerImage: "assets/image3.jpg",
+    images: [`${import.meta.env.BASE_URL}assets/image3.jpg`],
+    bannerImage: `${import.meta.env.BASE_URL}assets/image3.jpg`,
     palette: [
       { name: "Brushed Chrome", hex: "#cbd5e1" },
       { name: "Midnight Onyx", hex: "#0f172a", textColor: "#ffffff" },
@@ -115,7 +115,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$68",
     descriptionEn: "A series of sleep, focus and calm botanicals housed in heavy amber glass droppers with contrasting white text ratios, highlighting sensory relief and high psychological safety.",
     descriptionCn: "专为安神、专注及释压调配的情绪植物药液，采用厚重深褐玻璃和高宽比极高的纤细英文设计，透露出宁静的感官疗愈力量与沉浸式的心理安全感。",
-    images: ["assets/image5.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image5.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Deep Amber", hex: "#451a03", textColor: "#ffffff" },
@@ -140,7 +140,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$45",
     descriptionEn: "A natural skin supplement prioritizing sensory touch. Features a raw organic paper wrap combined with sharp technical branding lines and premium matte spray pumps.",
     descriptionCn: "注重触觉质感的天然草本肌肤营养剂。粗糙未漂白的手工质感包装包覆瓶身，与锋利的中文文字标志形成戏剧张力，打造具有艺术雕塑性的视觉焦点。",
-    images: ["assets/image6.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image6.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Matcha Mist", hex: "#a3b19b" },
@@ -165,7 +165,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$32",
     descriptionEn: "An eco-friendly, ultra-minimal mineral supplement jar focusing on absolute clean typography. Features generous negative space and a striking black-on-white circular branding stamp.",
     descriptionCn: "一款环保、极致简约的矿物活性洁齿补剂粉。大面积无机留白配以醒目的黑色双环圆形品牌印章，代表天然环保与硬核科研的和谐共存。",
-    images: ["assets/image7.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image7.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Pure Chalk", hex: "#ffffff" },
@@ -190,7 +190,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$78",
     descriptionEn: "High-potency antioxidant serum stored in reflective frosted jars with a signature burnt orange brand palette, capturing intense cellular vitality and warm modern luxury.",
     descriptionCn: "富含细胞活性的高浓度抗氧化发光凝露。磨砂高白玻璃器皿配以一抹画龙点睛的炙热珊瑚橙色标，完美诠释细胞能量与温暖轻奢品牌美学。",
-    images: ["assets/image8.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image8.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Sunset Orange", hex: "#f44a22", textColor: "#ffffff" },
@@ -240,7 +240,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$52",
     descriptionEn: "A high-latitude plant extract featuring matte dark green essence droplets on translucent premium glass, conveying pure subzero forests and deep minimalist clarity.",
     descriptionCn: "提取自北欧原始松针的高纯度原液。瓶身使用冷灰半透明喷砂表面，配以沉稳的墨苔绿标志，旨在表现北欧森林的冷冽与极致简洁的技术纯净感。",
-    images: ["assets/image10.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image10.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Boreal Forest", hex: "#14532d", textColor: "#ffffff" },
@@ -265,7 +265,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$48",
     descriptionEn: "Traditional East-Asian wellness elements reimagined in modern typography and earth-friendly pouches, marrying clean Swiss layout grid with deep calligraphic essence.",
     descriptionCn: "采用东方草本植物调和的养身冲剂系列。包装选用带有杂质微粒的手工粗糙触感纤维袋，将瑞士现代网格系统与远古神秘东方本草理念巧妙联结。",
-    images: ["assets/image11.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image11.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1563170351-be82bc888bb4?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Clay Earth", hex: "#7c2d12", textColor: "#ffffff" },
@@ -592,7 +592,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "Free 免费",
     descriptionEn: "A high-performance modern agency web grid showcasing sleek layered panels. Combining heavy cobalt shades with brilliant negative space layouts for experimental digital designers.",
     descriptionCn: "一款专为实验性数字化创意人设计的高性能机构作品集网站。卡片采用重叠网页视窗与深钴蓝、纯白页面的剧烈碰撞，呈现极致先锋的屏幕交互感。",
-    images: ["assets/image13.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image13.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Cobalt Blue", hex: "#1d4ed8", textColor: "#ffffff" },
@@ -618,7 +618,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$69",
     descriptionEn: "A dynamic audio-tactile web presence showcasing modular layering. Heavy atmospheric photography contrasts elegant thin lettering, designed for avant-garde audio-visual craftsmans.",
     descriptionCn: "一版为先锋视听艺术工作者定制的暗淡与明亮对比式双卡片网站。高饱和深海蓝色巨幕摄影与大块明亮的内容排版相扣，展现绝佳的现代雕塑般空间律动。",
-    images: ["assets/image14.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image14.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Deep Ocean", hex: "#0284c7", textColor: "#ffffff" },
@@ -644,7 +644,7 @@ export const ALL_PROJECTS: Project[] = [
     price: "$69",
     descriptionEn: "An extreme expression of fashion design system, leveraging high-fashion brutalism with heavy typography and stark visual layout contrast, suited for elite modern studios.",
     descriptionCn: "一个具有极致先锋高级时装质感的设计官网体系，将沉重的粗黑体大标题与失重感的极薄排版结合，适合追求无暇格调的新英格兰与欧陆高端创意工作室。",
-    images: ["assets/image15.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/image15.jpg`],
     bannerImage: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=1200&auto=format&fit=crop",
     palette: [
       { name: "Alabaster Base", hex: "#fafafa" },
